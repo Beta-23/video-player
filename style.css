@@ -209,6 +209,48 @@ select > option {
 		min-width: 0;
 		max-width: 95vh;
 	}
+	.fas {
+		font-size: 20px;
+	}
+
+	.controls-container {
+		height: 50px;
+	}
+
+	.control-group {
+		position: relative;
+		top: -25px;
+	}
+
+	.progress-range {
+		width: 100%;
+		top: 0;
+		left: 0;
+		border-radius: 0;
+	}
+
+	.progress-bar {
+		border-radius: 0;
+	}
+
+	.volume-range {
+		width: 50px;
+		left: 30px;
+		top: -15px;
+	}
+
+	.speed,
+	.time {
+		top: 3px;
+	}
+
+	select {
+		font-size: 12px;
+	}
+
+	.time {
+		font-size: 12px;
+	}
 }
 
 /* Media Query: Large Smartphone (Horizontal) */
