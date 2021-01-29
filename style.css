@@ -18,6 +18,11 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
+.fas {
+	color: var(--font-color);
+	font-size: 35px;
+}
+
 .player {
 	max-width: 80vw;
 	min-width: 800px;
@@ -35,12 +40,74 @@ video {
 }
 
 /* Containers */
+.show-controls {
+	width: 100%;
+	height: 30%;
+	background: dodgerblue;
+	z-index: 2;
+	position: absolute;
+	bottom: 0;
+	cursor: default;
+}
+
+.controls-container {
+	position: absolute;
+	bottom: -5px;
+	width: 100%;
+	height: 95px;
+	margin-top: -95px;
+	background: rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	z-index: 5;
+	display: flex;
+	justify-content: space-between;
+}
+
+.control-group {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.controls-left,
+.controls-right {
+	flex: 1;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+	top: 40px;
+}
 
 /* Progress Bar */
 
 /* Left Controls -------------------------- */
+.controls-left {
+	justify-content: flex-start;
+	margin-left: 15px;
+}
+
+.controls-right {
+	justify-content: flex-end;
+	margin-right: 15px;
+}
+
+.speed,
+.time {
+	position: relative;
+	top: 10px;
+}
 
 /* Play & Pause */
+.play-controls {
+	margin-right: 15px;
+}
+
+.fa-play:hover,
+.fa-pause:hover {
+	color: var(--primary-color);
+	cursor: pointer;
+}
 
 /* Volume */
 
