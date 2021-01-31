@@ -183,12 +183,13 @@ video {
 	margin-right: 15px;
 }
 
-.select,
+select,
 option {
 	cursor: pointer;
 }
 
 select {
+	background: transparent;
 	color: var(--font-color);
 	border: none;
 	font-size: 18px;
