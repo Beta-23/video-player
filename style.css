@@ -183,6 +183,11 @@ video {
 	margin-right: 15px;
 }
 
+.select,
+option {
+	cursor: pointer;
+}
+
 select {
 	color: var(--font-color);
 	border: none;
@@ -190,6 +195,10 @@ select {
 	position: relative;
 	top: -2.5px;
 	border-radius: 5px;
+}
+
+select:focus {
+	outline: none;
 }
 
 select > option {
