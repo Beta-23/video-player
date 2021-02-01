@@ -31,3 +31,7 @@ function togglePlay() {
 
 
 // Fullscreen ------------------------------- //
+
+// Event Listeners
+playBtn.addEventListener('click', togglePlay);
+video.addEventListener('click', togglePlay);
