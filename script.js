@@ -31,9 +31,16 @@ video.addEventListener('ended', showPlayIcon);
 
 // Progress Bar ---------------------------------- //
 
+// Calculate display time format
+function displayTime(time) {
+    const minutes = Math.floor(time / 60);
+    let seconds = Math.floor(time % 60);
+}
+
 // Update progress as video plays
 function updateProgress() {
-    console.log('currentTime', video.currentTime, 'duration', video.duration);
+    progressBar.style.width = `${(video.currentTime / video.duration) * 100}%`;
+    displayTime(64);
 }
 
 
