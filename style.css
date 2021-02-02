@@ -1,5 +1,6 @@
 :root {
-	--primary-color: rgb(255, 30, 79);
+	--primary-color: #00ff84;
+	--secondary-color: rgb(255, 30, 79);
 	--font-color: white;
 }
 
