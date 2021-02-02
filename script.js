@@ -49,7 +49,8 @@ function updateProgress() {
 // Click to skip video
 function setProgress(e) {
     const newTime = e.offsetX / progressRange.offsetWidth;
-    console.log(`${newTime * 100}%`);
+    progressBar.style.width = `${newTime * 100}%`;
+    video.currentTime = newTime * video.duration;
 }
 
 // Volume Controls --------------------------- //
