@@ -69,6 +69,7 @@ function changeVolume(e) {
     // Style the bar
     volumeBar.style.width = `${volume * 100}%`;
     video.volume = volume;
+    console.log(`${volume * 100}%`);
 }
 
 
