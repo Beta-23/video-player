@@ -59,7 +59,6 @@ let lastVolume = 1;
 
 // Mute
 function toggleMute() {
-    volumeIcon.className = '';
     if (video.volume) {
         lastVolume = video.volume;
         video.volume = 0;
