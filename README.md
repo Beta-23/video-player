@@ -1,6 +1,6 @@
 ## Video Player
 
-JavaScript Video Player:  [Video-Player]()
+JavaScript Video Player:  [Video-Player](https://beta-23.github.io/video-player/)
 
 This project was bootstrapped with using JavaScript.
 
