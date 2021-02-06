@@ -138,6 +138,7 @@ function closeFullscreen() {
         /* IE/Edge */
         document.msExitFullscreen();
     }
+    video.classList.remove('video-fullscreen');
 }
 
 let fullscreen = false;
